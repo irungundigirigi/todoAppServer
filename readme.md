@@ -27,6 +27,28 @@ Below steps are needed only for the first time when you setup your dev machine
 
    `npm install`
 
+### Install & Setup PostreSQL
+
+Refresh your local package index
+`sudo apt update`
+
+Install postres package along with the -contrib pacakge that adds some additional utilities and functionality:
+`sudo apt install postgresql postgresql-contrib`
+
+Ensure that the server is running using the systemctl start command:
+`sudo systemctl start postgresql.service`
+
+Switch over to your postgres account & Access the prompt.
+`sudo -i -u postgres psql`
+
+To log out of the shell type:  
+ `\q`
+
+Create a database and a table with the following commands on the prompt:
+`CREATE DATABASE [Database Name];`
+
+`CREATE TABLE todo(todo_id SERIAL PRIMARY KEY,description VARCHAR(255 ))`
+
 ## Built With
 
 - [Node](https://nodejs.org/en/) - JavaScript runtime built on Chrome's V8 JavaScript engine
