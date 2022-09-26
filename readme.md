@@ -47,8 +47,10 @@ Below steps are needed only for the first time when you setup your dev machine
 5. Create a database and a table with the following commands on the prompt:
    `CREATE DATABASE [Database Name];`
 
-`CREATE TABLE todo(todo_id SERIAL PRIMARY KEY,description VARCHAR(255 ))` 6. Create a .env file in the folder and add a variable
-`PASSWORD = [Your postgresql password]`
+`CREATE TABLE todo(todo_id SERIAL PRIMARY KEY,description VARCHAR(255 ))`
+
+6. Create a .env file in the folder and add a variable
+   `PASSWORD = [Your postgresql password]`
 
 ### Start the server
 
