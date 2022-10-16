@@ -56,7 +56,10 @@ Below steps are needed only for the first time when you setup your dev machine
 
 `npm start`
 
-## Built With
+## Technologies used
 
-- [Node](https://nodejs.org/en/) - JavaScript runtime built on Chrome's V8 JavaScript engine
-- [Express](https://expressjs.com/) - Node.js web application framework
+This project was created using the following technologies.
+
+- Express
+- Nodejs
+- PostgreSQL
